@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(43, 55, 89);
+    text-align: center;
+}
+.score{
+    /* float: right; */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* text-align: center; */
+    margin-top: 75px;
+}
+.main1, .main2 , .main3{
+    display: flex;
+}
+.box{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    color: white;
+    transition: 0.5s;
+}
+#result{
+    margin-top: 50px;
+    text-align: center;
+    color: beige;
+    font-size: 40px;
+    /* border: 1px solid white; */
+    display: inline;
+    padding: 5px 20px;
+    /* border-radius: 10px; */
+}
+.reset{
+    border: 0.5px solid rgb(122, 120, 120);
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(167, 161, 161);
+    margin: 20px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.1s;
+}
+.reset:hover{
+    background-color: rgb(53, 68, 108);
+}
+.reset:active{
+    background-color: rgb(26, 44, 93);
+}
